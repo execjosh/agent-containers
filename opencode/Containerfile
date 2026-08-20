@@ -1,4 +1,4 @@
-FROM ghcr.io/anomalyco/opencode:1.18.10@sha256:290dc1bf5075542a05ed719a3eb1dfc23186fa6e5007a3b351e4fb8764d1360c
+FROM ghcr.io/anomalyco/opencode:1.18.19@sha256:9d4081da17def820d8aaa4cff2389ab17be0d39c4b4d4ade50757ced2f2d890f
 
 # Run as non-root with writable HOME for opencode config/auth cache.
 # Podman rootless maps host UID; use a generic uid/gid that plays well with
